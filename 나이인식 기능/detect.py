@@ -87,17 +87,11 @@ try:
                 print("50세 이상입니다")
             else:
                 print("50세 미만입니다")
-                #video.release()
-                #cv2.destroyAllWindows()
-                #subprocess.run(["python", "Unified-Gesture-and-Fingertip-Detection-master/real-time.py"])
-                #exit()
+                video.release()
+                cv2.destroyAllWindows()
+                subprocess.run(["python", "Unified-Gesture-and-Fingertip-Detection-master/real-time.py"])
+                exit()
                 
     
             cv2.putText(resultImg, f'{gender}, {age}', (faceBox[0], faceBox[1]-10), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0,255,255), 2, cv2.LINE_AA)
             cv2.imshow("Detecting age and gender", resultImg)
-
-#except Exception as e:
-#    print(f"An error occurred: {e}")
-#finally:
-#    video.release()
-#    cv2.destroyAllWindows()
