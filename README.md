@@ -1,3 +1,4 @@
 # OneHandyKiosk_AI
 
-![image](https://github.com/user-attachments/assets/247fdb96-2c85-4356-bfa6-ec6217f18987)
+![통계포스터_중일고_임재윤](https://github.com/user-attachments/assets/b3c653d5-95da-492d-8454-c6ab4f530b91)
+
